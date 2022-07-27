@@ -23,5 +23,10 @@
 		"svelte": "^3.44.0",
 		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"mailgun.js": "^7.0.4",
+		"node-fetch": "^3.2.9",
+		"stripe": "^9.16.0"
+	}
 }

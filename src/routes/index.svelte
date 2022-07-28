@@ -160,11 +160,16 @@
 </script>
 
 <h1>Abonnement</h1>
-<p>Ici, vous pouvez souscrire ou renouveller un abonnement de communication pour une balise météo Sigfox (Pioupiou, MeteoWind, Arduino...)</p>
+
+<p><strong>Ce système étant tout neuf, merci de faire un mail à contact@openwindmap.org si vous rencontrez le moindre bug.</strong></p>
+
+<p>Ici, vous pouvez souscrire ou renouveler un abonnement de communication pour une balise météo Sigfox (Pioupiou, MeteoWind, Arduino...)</p>
+
+<p>Pour en savoir plus sur les abonnements, vous pouvez consulter <a href="https://forum.openwindmap.org/topic/325/renouvellement-des-abonnements">le sujet dédié sur le forum</a></p>
 
 <p>Le coût est de 20 € TTC pour un an. Il permet à la balise d'émettre depuis le réseau Sigfox vers OpenWindMap. La consultation et l'accès aux données restent gratuits pour tous.</p>
 
-<p>Pour des raisons techniques, le paiement ne peut se faire qu'en ligne, par carte bancaire. Si vous souhaitez prendre l'abonnement au nom d'une association qui n'a pas de carte bancaire, vous pouvez faire le paiement avec votre carte personelle. Nous fournissons systèmatiquement une facture, que vous pourrez présenter à votre association pour vous faire rembourser, le cas échéant.</p>
+<p>Pour des raisons techniques, le paiement ne peut se faire qu'en ligne, par carte bancaire. Si vous souhaitez prendre l'abonnement au nom d'une association qui n'a pas de carte bancaire, vous pouvez faire le paiement avec votre carte personelle. Nous fournissons systématiquement une facture, que vous pourrez présenter à votre association pour vous faire rembourser, le cas échéant.</p>
 
 <p>Il n'est pas nécessaire d'être le propriétaire d'une balise pour renouveller son abonnement. Vous pouvez sponsoriser une balise locale en payant pour elle.</p>
 
@@ -278,7 +283,7 @@
 
 <p>Le paiement s'effectue depuis le site internet https://abo.openwindmap.org. Une facture sera ensuite adressée par email. Le client doit s'assurer de fournir les bonnes coordonnées de facturation</p>
 
-<p>L'abonnement inclus les frais de communication à travers le réseau Sigfox, pour un maximum de 144 messages / jour, avec une itinérance possible dans les pays Européens couverts par Sigfox. L'abonnement inclus également les frais occasionnés pour le traitement et l'archivage des données sur les serveurs de OpenWindMap.</p>
+<p>L'abonnement inclut les frais de communication à travers le réseau Sigfox, pour un maximum de 144 messages / jour, avec une itinérance possible dans les pays Européens couverts par Sigfox. L'abonnement inclut également les frais occasionnés pour le traitement et l'archivage des données sur les serveurs de OpenWindMap.</p>
 
 <p>Après le paiement, l'abonnement devient activable : soit immédiatement si aucun abonnement n'était en cours de validité pour cet appareil, soit dès que l'abonnement précédent prend fin. L'abonnement est ensuite activé dès qu'un message émis par l'appareil est capté par le réseau Sigfox. Il est ensuite valable 365 jours à compter de la date d'activation.</p>
 
@@ -292,7 +297,7 @@
 
 <p>Toute demande d'aide ou réclamation doit être adressée prioritairement sur le forum disponible à l'adresse https://forum.openwindmap.org, ou par email à contact@openwindmap.org</p>
 
-<p>Nous ne receuillons aucune donnée personelle autre que celles demandées dans ce formulaire. Elles sont utilisées et conservées uniquement pour répondre à nos obligations légales de facturation. Ces données ne sont en aucun cas transmises à un tiers, à l'exception de nos prestataires de paiement et de facturation. Notre prestaire de paiement est susceptible de collecter des informations telles que le nom de votre navigateur, votre adresse IP et probablement d'autres, ceci dans le but d'assurer la transaction en toute sécurité. Nous vous invitons à consulter leur politique de vie privée, conforme au RGPD. Vous disposez d'un droit d'accès à vos données. Pour exercer ce droit, vous pouvez nous contacter par email ou par courrier. Cette page n'utilise pas de cookies.</p>
+<p>Nous ne recueillons aucune donnée personelle autre que celles demandées dans ce formulaire. Elles sont utilisées et conservées uniquement pour répondre à nos obligations légales de facturation. Ces données ne sont en aucun cas transmises à un tiers, à l'exception de nos prestataires de paiement et de facturation. Notre prestaire de paiement est susceptible de collecter des informations telles que le nom de votre navigateur, votre adresse IP et probablement d'autres, ceci dans le but d'assurer la transaction en toute sécurité. Nous vous invitons à consulter leur politique de vie privée, conforme au RGPD. Vous disposez d'un droit d'accès à vos données. Pour exercer ce droit, vous pouvez nous contacter par email ou par courrier. Cette page n'utilise pas de cookies.</p>
 
 <p>Les présentes conditions sont valables au moment du paiement et jusqu'à la date de fin de l'abonnement. OpenWindMap se réserve le droit de les modifier, après en avoir informé le client. Dans le cas où le client n'accepterait pas les nouvelles conditions, OpenWindMap pourra procéder à la résiliation et au remboursement prévus plus haut.</p>
 

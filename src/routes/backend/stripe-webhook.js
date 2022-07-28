@@ -9,7 +9,9 @@ const mg = mailgun.client({username: config.mailgun_id, key: config.mailgun_key,
 const stripeClient = stripe(config.stripe_key)
 
 async function createInvoice(data, payment) {
-  const date = new Date(payment.created * 1000).toISOString().substr(0, 10)
+  // const date = new Date(payment.created * 1000).toISOString().substr(0, 10)
+  // TODO : date should be CET/CEST and not UTC
+
   const cents = String(payment.amount)
   const amountTxt = `${cents.substr(0, cents.length-2)}.${cents.substr(-2)}`
   
@@ -17,7 +19,7 @@ async function createInvoice(data, payment) {
     'api_token': config.vosfactures_key,
     'invoice': {
       'kind': 'vat',
-      'sell_date': date,
+      // 'sell_date': date,
       'test': config.vosfactures_test,
       'buyer_name': data.invoice_name,
       'buyer_street': data.invoice_street,
@@ -25,7 +27,7 @@ async function createInvoice(data, payment) {
       'buyer_post_code': data.invoice_post_code,
       'buyer_country': data.invoice_country,
       'status': 'paid',
-      'paid_date': date,
+      // 'paid_date': date,
       'payment_type': 'Carte bancaire internet',
       'paid': amountTxt,
       'buyer_email': data.email,

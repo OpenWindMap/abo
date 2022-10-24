@@ -21,7 +21,7 @@ async function createInvoice(data, payment) {
       'kind': 'vat',
       // 'sell_date': date,
       'test': config.vosfactures_test,
-      'buyer_name': data.invoice_name,
+      'buyer_name': `${data.invoice_name} (${data.station_id})`,
       'buyer_street': data.invoice_street,
       'buyer_city': data.invoice_city,
       'buyer_post_code': data.invoice_post_code,

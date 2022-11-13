@@ -102,6 +102,13 @@ export async function POST({ request }) {
     await activateContract(data)
     await createInvoice(data, payment)
 
+    mg.messages.create('ml.openwindmap.org', {
+      from: 'abo@ml.openwindmap.org',
+      to: 'contact@openwindmap.org',
+      subject: `[AUTO] renew ${data.station_id}`,
+      text: JSON.stringify(data, null, 2)
+    })
+    
     return { status: 200 }
     
   } catch (e) {

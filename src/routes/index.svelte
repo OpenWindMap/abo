@@ -175,6 +175,8 @@
 
 <p>Nous vous invitons à lire les détails du fonctionnement, présentés en bas de la page.</p>
 
+<p style="color: red;"><strong>Suite à un bug temporaire, merci de ne pas renouveller l'abonnement avant que celui-ci n'ait expiré.</strong></p>
+
 <form on:submit={submit}>
 
   <h2>Quelle balise ?</h2>

@@ -10,7 +10,7 @@
       }, 
     sponsor: 
       {
-        label: `Nom qui apparaîtra comme sponsor de l'abonnement  (vous, club, association, entreprise...)`,
+        label: `Nom qui apparaîtra comme sponsor de l'abonnement  (nom, pseudo, club, association, entreprise...)`,
         value: ''
       },
     last_name: 
@@ -67,6 +67,7 @@
 
   let station_name = ''
   let station_current_contract = ''
+  let station_current_status = ''
   let form_error = null
   let loading = false
 
@@ -76,6 +77,7 @@
     if (!form.station_id.value) return station_name = ''
     let id = parseInt(form.station_id.value)
     try {
+      station_current_status = ''
       if (isNaN(id)) return station_name = 'Numéro invalide'
       const data = await fetch(`https://api.pioupiou.fr/v1/live/${id}?contract=true`)
       const s = await data.json()
@@ -87,6 +89,7 @@
       station_name = s.data.meta.name
       console.log(s.data.contract)
       if (!(s.data.contract || s.data.contract.status)) return
+      station_current_status = s.data.contract.status
       switch (s.data.contract.status) {
         case 'valid':
           let expiry = new Date(s.data.contract.expiry).toLocaleDateString(undefined, {year: 'numeric', month: 'short', day: 'numeric' })
@@ -103,6 +106,7 @@
       }
     } catch (e) {
       station_current_contract = ''
+      station_current_status = ''
       station_name = ''
     }
   }
@@ -197,6 +201,8 @@
     </p>
   </div>
 
+  {#if station_current_status === 'expired'}
+
   <div class="form-group">
     <label>{form.sponsor.label}</label>
     <input type="text" class="form-control" bind:value={form.sponsor.value}>
@@ -267,6 +273,8 @@
   {:else}
     <button type="submit" class="btn btn-primary">Aller au paiement</button>
   {/if}
+
+  {/if}
 </form>
 
 <p>&nbsp;</p>
@@ -287,7 +295,7 @@
 
 <p>L'abonnement inclut les frais de communication à travers le réseau Sigfox, pour un maximum de 144 messages / jour, avec une itinérance possible dans les pays Européens couverts par Sigfox. L'abonnement inclut également les frais occasionnés pour le traitement et l'archivage des données sur les serveurs de OpenWindMap.</p>
 
-<p>Après le paiement, l'abonnement devient activable : soit immédiatement si aucun abonnement n'était en cours de validité pour cet appareil, soit dès que l'abonnement précédent prend fin. L'abonnement est ensuite activé dès qu'un message émis par l'appareil est capté par le réseau Sigfox. Il est ensuite valable 365 jours à compter de la date d'activation.</p>
+<p>Après le paiement, l'abonnement devient activable : soit immédiatement si aucun abonnement n'était en cours de validité pour cet appareil, soit dès que l'abonnement précédent prend fin. L'abonnement est ensuite activé dès qu'un message émis par l'appareil est capté par le réseau Sigfox. Il est ensuite valable 364 jours à compter de la date d'activation.</p>
 
 <p>Le client peut demander l'annulation et le remboursement pendant une période de 3 mois après le paiement, tant que l'abonnement n'a pas encore été activé. Dès lors que l'abonnement a été activé (donc qu'un message a été reçu), plus aucun remboursement n'est possible, y compris en cas de panne ou vol de l'appareil.</p>
 
@@ -303,7 +311,7 @@
 
 <p>Les présentes conditions sont valables au moment du paiement et jusqu'à la date de fin de l'abonnement. OpenWindMap se réserve le droit de les modifier, après en avoir informé le client. Dans le cas où le client n'accepterait pas les nouvelles conditions, OpenWindMap pourra procéder à la résiliation et au remboursement prévus plus haut.</p>
 
-<p>Ce contrat est régi par la loi Française. En cas de litige, seul le Tribunal de Commerce de Grenoble sera compétent.</p>
+<p>Ce contrat est régi par la loi Française. En cas de litige, seul le Tribunal de Commerce de Chambéry sera compétent.</p>
 
 <p>&nbsp;</p>
 
@@ -311,11 +319,11 @@
 
 <p>Société coopérative d'intérêt collectif OpenWindMap<p>
 
-<p>350 chemin du Pré Neuf, CDV 50068, 38350 La Mure, France</p>
+<p>110 impasse de Pré Baron 73110 La Chapelle Blanche, France</p>
 
 <p>
 TVA Intracommunautaire : FR24903301737<br>
-R.C.S. Grenoble 903 301 737<br>
+R.C.S. Chambéry 903 301 737<br>
 Capital social variable, minimum de 18 500,00 Euros
 </p>
 

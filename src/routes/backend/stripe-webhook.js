@@ -97,7 +97,7 @@ export async function POST({ request }) {
     
     const data = payment.metadata
 
-    if (!data.station_id) return { status: 400 }
+    if (!data.station_id) return { status: 200 } // just ignore this webhook
     
     await activateContract(data)
     await createInvoice(data, payment)

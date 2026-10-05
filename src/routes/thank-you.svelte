@@ -10,4 +10,4 @@
 
 <p>&nbsp;</p>
 
-<p>Pour toutes questions, vous pouvez nous contacter sur le forum <a href="https://forum.openwindmap.org">https://forum.openwindmap.org</a> ou par email : contact@openwindmap.org</p>
+<p>Pour toutes questions, vous pouvez nous contacter par email : contact@openwindmap.org</p>

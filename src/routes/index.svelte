@@ -306,7 +306,7 @@
 
 <p>Les présentes conditions sont valables au moment du paiement et jusqu'à la date de fin de l'abonnement. OpenWindMap se réserve le droit de les modifier, après en avoir informé le client. Dans le cas où le client n'accepterait pas les nouvelles conditions, OpenWindMap pourra procéder à la résiliation et au remboursement prévus plus haut.</p>
 
-<p>Ce contrat est régi par la loi Française. En cas de litige, seul le Tribunal de Commerce de Chambéry sera compétent.</p>
+<p>Ce contrat est régi par la loi Française. En cas de litige, seul le Tribunal de Commerce de Bourg-en-Bresse sera compétent.</p>
 
 <p>&nbsp;</p>
 

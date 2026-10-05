@@ -169,7 +169,7 @@
 
 <p>Ici, vous pouvez souscrire ou renouveler un abonnement de communication pour une balise météo Sigfox (Pioupiou, MeteoWind, Arduino...)</p>
 
-<p>Pour en savoir plus sur les abonnements, vous pouvez consulter <a href="https://forum.openwindmap.org/topic/325/renouvellement-des-abonnements">le sujet dédié sur le forum</a></p>
+<p>Pour en savoir plus sur les abonnements, vous pouvez consulter <a href="https://openwindmap.org/renouvellement-des-abonnements">info abonnements</a></p>
 
 <p>Le coût est de 20 € TTC pour un an. Il permet à la balise d'émettre depuis le réseau Sigfox vers OpenWindMap. La consultation et l'accès aux données restent gratuits pour tous.</p>
 
@@ -300,7 +300,7 @@
 
 <p>En connectant votre appareil au réseau OpenWindMap, vous autorisez OpenWindMap à redistribuer ses mesures, sa localisation et ses métadonées, sous toutes formes et sous toutes licences, pour tout usage que ce soit-</p>
 
-<p>Toute demande d'aide ou réclamation doit être adressée prioritairement sur le forum disponible à l'adresse https://forum.openwindmap.org, ou par email à contact@openwindmap.org</p>
+<p>Toute demande d'aide ou réclamation doit être adressée par email à contact@openwindmap.org</p>
 
 <p>Nous ne recueillons aucune donnée personelle autre que celles demandées dans ce formulaire. Elles sont utilisées et conservées uniquement pour répondre à nos obligations légales de facturation. Ces données ne sont en aucun cas transmises à un tiers, à l'exception de nos prestataires de paiement et de facturation. Notre prestaire de paiement est susceptible de collecter des informations telles que le nom de votre navigateur, votre adresse IP et probablement d'autres, ceci dans le but d'assurer la transaction en toute sécurité. Nous vous invitons à consulter leur politique de vie privée, conforme au RGPD. Vous disposez d'un droit d'accès à vos données. Pour exercer ce droit, vous pouvez nous contacter par email ou par courrier. Cette page n'utilise pas de cookies.</p>
 
@@ -314,17 +314,17 @@
 
 <p>Société coopérative d'intérêt collectif OpenWindMap<p>
 
-<p>110 impasse de Pré Baron 73110 La Chapelle Blanche, France</p>
+<p>39 rue de Vanchy 01200 Valserhône, France</p>
 
 <p>
 TVA Intracommunautaire : FR24903301737<br>
-R.C.S. Chambéry 903 301 737<br>
+R.C.S. Bourg-en-Bresse 903 301 737<br>
 Capital social variable, minimum de 18 500,00 Euros
 </p>
 
 <p>Contact : contact@openwindmap.org</p>
 
-<p>Directeur de la publication : Nicolas Baldeck</p>
+<p>Directeur de la publication : Frédéric Grand</p>
 
 <p>Hébergeur : Netlify, support@netlify.com, 2325 3rd Street, Suite 296, San Francisco, California 94107</p>
 
